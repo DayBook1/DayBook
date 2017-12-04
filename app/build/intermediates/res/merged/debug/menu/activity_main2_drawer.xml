@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_lembrete"
+            android:icon="@drawable/icon_lembrete"
+            android:title="Ver Lembretes" />
+        <item
+            android:id="@+id/nav_evento"
+            android:icon="@drawable/icon_evento"
+            android:title="Ver Eventos" />
+        <item
+            android:id="@+id/nav_materia"
+            android:icon="@drawable/icon_materia"
+            android:title="Ver Matérias" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
